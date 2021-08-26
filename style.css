@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.float{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color : #2A4365;
+    rigth: 10px;
+}
+
+.nav-container{
+    height: 90px;
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    height: 60px;
+    width: 80%;
+    border-bottom: 3px solid #1ABCFE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    color: #1ABCFE;
+}
+
+.login{
+    width: 200px;
+    height: 30px;
+    background-color: #1ABCFE;
+    border-radius: 50px;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-color: #F0F0F0;
+
+}
+
+.card{
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    gap: 8px;
+}
+
+.user-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.subreddit{
+    border-radius: 8px;
+    /* background-color: #BEE3F8; */
+    padding:0.5em 1em;
+    height: fit-content;
+    align-self: center;
+    color: #2A4365;
+}
+
+
+.content{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+p{
+    margin-bottom: 0.5em;
+}
+
+.footer{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    gap: 0.5em;
+}
+
+.up{
+    background-color: lightgray;
+    width: 60px;
+    height: 30px;
+    justify-self: end;
+    border-radius: 50px;
+}
+
+.comments{
+    background-color: lightgray;
+    width: 40px;
+    height: 30px;
+    justify-self: end;
+    border-radius: 50px;
+}
+
+.img-content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+.subreddit-flex{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+
+}
+
+.subreddit-img{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
